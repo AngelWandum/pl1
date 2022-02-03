@@ -15,8 +15,14 @@ https://maps.googleapis.com/maps/api/directions/json?departure_time=now&avoid=hi
 ## Next paste the full JSON response to this query here:
 
 ```JSON
-
 ```
+<!--- PlaceIDS 
+ https://www.google.com/maps/place/?q=place_id:ChIJdQXvH7ctK4gRVh90kJCozs8
+ https://www.google.com/maps/place/?q=place_id:ChIJCyQ16HUuK4gRraHfTlsgQSE
+ https://www.google.com/maps/place/?q=place_id:ChIJH6D9FZgvK4gRU5rOAgiyM3U
+ https://www.google.com/maps/place/?q=place_id:ChIJeTfxJBUuK4gREsPGD-CDUGE
+ https://www.google.com/maps/place/?q=place_id:ChIJOwff6EovK4gRag40Clg9VWc
+--->
 ____
 ## Rubric
 
