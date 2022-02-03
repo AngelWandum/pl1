@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <!-- source: https://developers.google.com/maps/documentation/javascript/overview#maps_map_simple-html -->
-<!-- https://developers.google.com/maps/documentation/javascript/examples/icon-simple -->
+<!-- source: https://developers.google.com/maps/documentation/javascript/examples/icon-simple -->
 <html>
   <head>
-    <title>Simple Map</title>
+    <title>Travel Map</title>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <style>
       /* Always set the map height explicitly to define the size of the div
@@ -22,7 +22,7 @@
     </style>
     <script>
      // This example creates a 2-pixel-wide red polyline showing the path of
-     // a private jet flight from Toronto to Vancouver, passing via Montreal and Calgary
+     // a private jet flight from Toronto to Vancouver Iona beach, passing via Montreal and Calgary
 function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 4,
@@ -57,7 +57,6 @@ const image =
     <div id="map"></div>
     
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
-    <!-- *** STUDENTS: Replace YOUR_API_KEY text with provided key in class for property src in next line *** -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE&callback=initMap&v=weekly" async>
     </script>
   </body>
