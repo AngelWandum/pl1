@@ -42,7 +42,13 @@ function initMap() {
     strokeOpacity: 1.0,
     strokeWeight: 2,
   });
-
+const image =
+    "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png";
+  const beachMarker = new google.maps.Marker({
+    position: { lat: 49.216, lng: -123.2049 },
+    map,
+    icon: image,
+  });
   flightPath.setMap(map);
 }
     </script>
